@@ -1,6 +1,8 @@
 # Prot_evol
 Author  : Ugo Bastolla Centro de Biologia Molecular Severo Ochoa (CSIC-UAM) ubastolla@cbm.csic.es
 
+This repository has been substituted by https://github.com/ugobas/Prot_evol Please go there for the last version of the program Prot_evol that includes structure constrained substitution models of protein evolution.
+
 The program Prot_evol computes site-specific amino acid substitution models where different protein sites evolve independently under selection on the thermodynamic stability of the native state against unfolding and misfolding.
 The program implements two models: (1) The mean-field (MF) in which each amino acid site evolves in the mean-field produced by the other sites; (2) The wild-type (WT) model that considers the effect of mutations of the wild-type sequence at all possible positions.
 Additionally, the program also allows simulating stability constrained protein evolution, without applying the approximation that protein sites evolve independently of each other.
