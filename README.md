@@ -14,14 +14,13 @@ Citations:
 4) Minning J, Porto M, Bastolla U (2013) Detecting selection for negative design in proteins through an improved model of the misfolded state. Proteins 81:1102-12.
 
 
-==================================
-GENERAL DESCRIPTION
+## GENERAL DESCRIPTION
 ==================================
 
 The program Prot_Evol performs two kinds of computations.
 
 (1) It computes site-specific and global amino acid frequencies F and
-    exchangeability matrices E, which jointly allow computing global and
+	exchangeability matrices E, which jointly allow computing global and
     site-specific amino acid substitution matrices Q=EF that can be used
     for phylogenetic inference.
     The amino acid frequencies are obtained imposing a global constraint on
@@ -53,8 +52,7 @@ The program Prot_Evol performs two kinds of computations.
 	    P_fix=(1-f(WT)/f(mut))/(1-(f(WT)/f(mut))^N),
             where N is the effective population size;
 
-==================================
-COMPILE AND RUN:
+## COMPILE AND RUN:
 ==================================
 
 To compile and run the program execute the following commands:
@@ -76,8 +74,7 @@ IMPORTANT:
  - Modify the line FILE_STR=... with the local path to the file 
    structures.in, which is included in the package.
 
-==================================
-DETAILED DESCRIPTION
+## DETAILED DESCRIPTION
 ==================================
 
     The commands mentioned in this section can be modified by editing 
@@ -166,8 +163,7 @@ models:
     
     Commands NEUTRAL=0 MEANFIELD=0
 
-==================================
-INPUT FILE
+## INPUT FILE
 ==================================
     
     A detailled documentation of the input parameters needed will be found on 
@@ -183,8 +179,7 @@ E) Mutation model to build the background distribution and the
    exchangeability matrices
 F) Output control.
 
-==================================
-OUTPUT FILES:
+## OUTPUT FILES:
 ==================================
    
    There are several output files that can be classified in two 
