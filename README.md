@@ -62,8 +62,7 @@ To compile and run the program execute the following commands:
     ./Prot_evol # Without parameter file, it will print an help screen
     ./Prot_evol Input_Prot_evol.in
 
-==================================
-INPUT:
+## INPUT:
 ==================================
 
 The parameter file Input_Prot_evol.in included in the package contains the
